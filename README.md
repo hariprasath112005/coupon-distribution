@@ -42,7 +42,7 @@ A full-stack web application that distributes coupons to guest users in a round-
    ```bash
    git clone https://github.com/hariprasath112005/coupon-distribution.git
    cd coupon-distribution
-    '''
+    
 
 2. **Environment Setup**:
 - Set up a MongoDB database (local or cloud-based like MongoDB Atlas)
@@ -51,7 +51,7 @@ A full-stack web application that distributes coupons to guest users in a round-
    ```bash
    MONGODB_URI=your_mongodb_connection_string
    MONGODB_DB=coupon-system
-   '''
+   
 
 3. **Initial Setup**:
 
@@ -68,7 +68,7 @@ This will create an admin user with the default credentials:
 
 4. Running the Application:
 
-   - Development mode:
+- Development mode:
 
 ```shellscript
 npm run dev
