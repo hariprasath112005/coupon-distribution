@@ -38,41 +38,44 @@ A full-stack web application that distributes coupons to guest users in a round-
 
 ### Setup
 
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/hariprasath112005/coupon-distribution.git
-   cd coupon-distribution'''
+   cd coupon-distribution
+    '''
 
-2. Environment Setup:
+2. **Environment Setup**:
 - Set up a MongoDB database (local or cloud-based like MongoDB Atlas)
 - Configure environment variables:
 
    ```bash
    MONGODB_URI=your_mongodb_connection_string
-   MONGODB_DB=coupon-system'''
+   MONGODB_DB=coupon-system
+   '''
 
-3. Initial Setup:
+3. **Initial Setup**:
 
 - Run the seed script to create an admin user:
   ```bash
-  node scripts/seed-admin.js```
+  node scripts/seed-admin.js
+  ```
 
-  This will create an admin user with the default credentials:
+This will create an admin user with the default credentials:
 
-- Username: admin
-- Password: admin123
-- (Change these credentials after first login)
+   - Username: admin
+   - Password: admin123
+   - (Change these credentials after first login)
 
 4. Running the Application:
 
-- Development mode:
+   - Development mode:
 
 ```shellscript
 npm run dev
 ```
 
 
-- Production build:
+   - Production build:
 
 ```shellscript
 npm run build
@@ -81,5 +84,5 @@ npm start
 
 5. Accessing the Application:
 
-- User interface: `http://localhost:3000`
-- Admin panel: `http://localhost:3000/admin`
+   - User interface: `http://localhost:3000`
+   - Admin panel: `http://localhost:3000/admin`
